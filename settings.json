@@ -1,0 +1,6 @@
+{
+  "settings": {
+    "token": "add your pushover app token here",
+    "user": "add your pushover user key here"
+  }
+}
