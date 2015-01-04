@@ -1,0 +1,29 @@
+{
+  "name": "node-pushover-app",
+  "version": "0.0.1",
+  "description": "A simple node app to talk to pushover",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "node-pushover": "~0.2.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohitbhoite/node-pushover-app"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "pushover",
+    "node-pushover",
+    "spark"
+  ],
+  "license": "MIT"
+}
