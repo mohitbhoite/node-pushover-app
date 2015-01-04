@@ -13,9 +13,9 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.post('/', function(req, res){
-    push.send("Some title", "Node.js is Cool!! - no callback");
+    //push.send("Motion Detected", "- no callback");
     // A callback function is defined:
-    push.send("Some title", "Node.js is Cool!!", function (err, res){
+    push.send("Alert", "Motion Detected", function (err, res){
         if(err){
             console.log("We have an error:");
             console.log(err);
